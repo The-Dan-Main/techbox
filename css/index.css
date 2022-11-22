@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    font-family: 'Roboto', sans-serif;
+    ;
+}
+/* Color foundation  */
+:root {
+    --dark-blue: #1f2937;
+    --light-blue: #F9FAF8;
+    --semi-light-blue: #E5E7EB;
+    --mid-blue-button: #3882F6;
+    --white: #ffffff;
+    --black: #00000000;
+    --light-gray: #666565;
+}
+
+.header-wrapper {}
+
+.header-logo {}
+
+.header-links-container {}
+
+.header-links-item {}
+
+.header-links-link {}
+
+.secOne-wrapper {}
+
+.secOne-container {}
+
+.secOne-item-container {}
+
+.secOne-item-para {}
+
+.secOne-button {}
+
+.secOne-img {}
+
+.secTwo-wrapper {}
+
+.secTwo-title {}
+
+.secTwo-container {}
+
+.secTwo-item {}
+
+.secTwo-item-img {}
+
+.secThree-wrapper {}
+
+.secThree-container {}
+
+.secThree-cite {}
+
+.secThree-author {}
+
+.secFour-wrapper {}
+
+.secFour-container {}
+
+.secFour-item-container {}
+
+.secFour-item-para {}
+
+.secFour-item-container {}
+
+.secFour-button {}
+
+.footer-para {}
