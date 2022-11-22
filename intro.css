@@ -1,0 +1,25 @@
+* {
+    color: aliceblue;
+}
+
+p {
+    color: antiquewhite;
+}
+
+.one {
+    color: aqua;
+}
+
+.two, p {
+    color: aquamarine;
+}
+
+p.two {
+    color: azure;
+}
+
+#hi {
+    color: beige;
+ }
+
+ 
