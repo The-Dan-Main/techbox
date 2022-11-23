@@ -12,6 +12,9 @@ p {
     font-size: 18px;
 }
 
+button {
+    cursor: pointer;
+}
 /* Color foundation  */
 :root {
     --dark-blue: #1f2937;
@@ -46,8 +49,42 @@ p {
     display: flex;
     list-style-type: none;
     gap: 2vw;
-    color: var(--semi-light-blue);
+}
+
+.header-links-item {
+    position: relative;
+}
+
+.header-links-item:hover .header-link-underline {
+    animation: underlineAppearance 1s ease-out 0s 1 normal forwards;
+}
+
+.header-links-link {
     font-size: 18px;
+    color: var(--semi-light-blue);
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.header-link-underline {
+    background-color: var(--white);
+    width: 0%;
+    height: 3px;
+    position: absolute;
+    right: -5%;
+    bottom: -2px;
+}
+
+
+
+@keyframes underlineAppearance {
+    from {
+        width: 0%;
+    }
+
+    to {
+        width: 110%;
+    }
 }
 
 /* first main section  */
@@ -193,7 +230,7 @@ p {
     font-size: 18px;
     border-radius: 10px;
     border: solid white 1px;
-    width: 8vw;
+    width: 12vw;
     background-color: var(--mid-blue-button);
     color: var(--light-blue);
 }
@@ -209,4 +246,23 @@ footer {
     color: var(--semi-light-blue);
     justify-content: center;
     align-items: center;
+    position: relative;
+}
+
+.footer-topLink {
+    font-size: 30px;
+    color: var(--white);
+    filter: grayscale(1) brightness(4);
+    text-decoration: none;
+    position: absolute;
+    left: 5vw;
+    padding: 5px;
+    border: solid 1px var(--white);
+    border-radius: 50%;
+}
+
+.copywright {
+    position: relative;
+    bottom: 6px;
+    font-size: 12px;
 }
