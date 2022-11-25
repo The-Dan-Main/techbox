@@ -1,0 +1,108 @@
+/* Color foundation  */
+:root {
+    --dark-blue: #1f2937;
+    --light-blue: #F9FAF8;
+    --semi-light-blue: #E5E7EB;
+    --mid-blue-button: #3882F6;
+    --white: #ffffff;
+    --black: #00000000;
+    --light-gray: #e1e6ec;
+}
+
+.secOne-container#services-secOne-Container h2 {
+    text-align: center;
+}
+
+.secOne-item-container.services-secOne-item-container {
+    width: 60%;
+    height: 20vh;
+    align-items: center;
+}
+
+.secOne-item-container#services-achievements {
+    width: 100%;
+}
+
+.secOne-item-container#services-achievements ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    padding-top: 5vh;
+}
+
+.secOne-item-container#services-achievements h3 {
+    font-size: 50px;
+    text-align: center;
+    margin: 0;
+}
+
+.secOne-item-container#services-achievements p {
+    text-align: center;
+    margin: 0;
+}
+
+#services-secOne-Container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0;
+}
+
+.secTwo-wrapper h2 {
+    font-size: 28px;
+    color: var(--dark-blue);
+}
+
+.secTwo-container#benefits {
+    height: 40vh;
+    margin-top: 3vh;
+    color: var(--black);
+}
+
+.secTwo-container#benefits .secTwo-item {
+    width: 15vw;
+    background-color: var(--semi-light-blue);
+    padding: 1vw;
+    text-align: center;
+    border-radius: 15px;
+    border: solid 2px var(--mid-blue-button);
+}
+
+.secTwo-container#benefits h3 {
+    text-align: center;
+    margin: 4vh 0;
+    color: var(--dark-blue);
+    font-size: 24px;
+}
+
+.secTwo-container#benefits p {
+    text-align: center;
+    margin: 2vh 0;
+    color: var(--dark-blue);
+    font-size: 18px;
+}
+
+.services-secThree-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+    flex-direction: row;
+    ;
+}
+
+.services-secThree-container div {
+    width: 50%;
+}
+
+.services-secThree-container h2 {
+    font-size: 28px;
+}
+
+.services-secThree-container p {
+    font-size: 18px;
+}

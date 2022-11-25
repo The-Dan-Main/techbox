@@ -4,6 +4,10 @@
     font-family: 'Roboto', sans-serif;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background-color: var(--dark-blue);
 }
@@ -15,6 +19,12 @@ p {
 button {
     cursor: pointer;
 }
+
+button a {
+    color: var(--white);
+    text-decoration: none;
+}
+
 /* Color foundation  */
 :root {
     --dark-blue: #1f2937;
@@ -26,6 +36,9 @@ button {
     --light-gray: #e1e6ec;
 }
 
+main {
+    scroll-snap-align: center;
+}
 
 /* header section */
 .header-wrapper,
@@ -236,7 +249,7 @@ button {
 }
 
 .secFour-title {
-    font-size: 20px;
+    font-size: 24px;
     margin: 0;
 }
 
@@ -244,9 +257,10 @@ footer {
     height: 10vh;
     display: flex;
     color: var(--semi-light-blue);
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     position: relative;
+    flex-direction: row;
 }
 
 .footer-topLink {
@@ -265,4 +279,11 @@ footer {
     position: relative;
     bottom: 6px;
     font-size: 12px;
+}
+
+.footer-links {
+    display: flex;
+    gap: 1vw;
+    text-decoration: underline;
+    cursor: pointer;
 }

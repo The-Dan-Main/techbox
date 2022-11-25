@@ -1,0 +1,15 @@
+/* Color foundation  */
+:root {
+    --dark-blue: #1f2937;
+    --light-blue: #F9FAF8;
+    --semi-light-blue: #E5E7EB;
+    --mid-blue-button: #3882F6;
+    --white: #ffffff;
+    --black: #00000000;
+    --light-gray: #e1e6ec;
+}
+
+#mission-main {
+    padding: 12vh 28vw;
+    text-align: center;
+}
