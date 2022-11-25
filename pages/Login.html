@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../index.css">
+    <link rel="stylesheet" href="../CSS/Login.css">
+    <link rel="apple-touch-icon" sizes="57x57" href="./img/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="./img/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="./img/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="./img/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="./img/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="./img/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="./img/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="./img/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="./img/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="./img/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="./img/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./img/favicon/">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="./img/favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <title>TECHBOX - Login</title>
+</head>
+<body>
+    <header class="header-wrapper">
+        <img src="../img/logo.png" alt="Logo" class="header-logo">
+        <nav>
+            <ul class="header-links-container">
+                <li class="header-links-item">
+                    <a href="../index.html" class="header-links-link">Home</a>
+                    <span class="header-link-underline"></span>
+                </li>
+                <li class="header-links-item">
+                    <a href="./services.html" class="header-links-link">Services</a>
+                    <span class="header-link-underline"></span>
+                </li>
+                <li class="header-links-item">
+                    <a href="./Mission.html" class="header-links-link">Mission</a>
+                    <span class="header-link-underline"></span>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main class="secOne-wrapper">
+        <div class="secOne-container">
+            <div class="secOne-container">
+                <div class="secOne-item-container" id="login-secOne-title">
+                    <h2 class="secOne-title">Pave your way into the future with us!</h2>
+                    <p class="secOne-item-para"> Our mission is to help you grow, by leading the way into the future of
+                        data structure and safety. </p>
+                    <div class="login-signIn">
+                        <button class="secOne-button"><a href="#loginAccount">Log me in with my company
+                                account!</a></button>
+                        <button class="secOne-button"><a href="#createInquiry">Create a new inquiry and get
+                                started!</a></button>
+                    </div>
+                </div>
+            </div>
+    </main>
+    <main class="secThree-wrapper" id="createInquiry">
+        <div class="secThree-container">
+            <h3 class="secThree-signUp-title">Let's start a new inquiry and get the future rolling!</h3>
+            <form class="secThree-signUp-form">
+                <div class="secThree-signUp-form-companyName secThree-signUp-form-item">
+                    <h4> Company name </h4>
+                    <input type="text" name="companyName" placeholder="Please insert company name">
+                </div>
+                <div class="secThree-signUp-form-contact secThree-signUp-form-item">
+                    <h4> Contact Person </h4>
+                    <div class="secThree-signUp-form-contact-input-container">
+                        <input type="text" name="Contact-first-name" placeholder="Please insert contact first name">
+                        <input type="text" name="Contact-last-name" placeholder="Please insert contact last name">
+                        <input type="email" name="Contact-email" placeholder="Please insert contact email">
+                    </div>
+                </div>
+                <div class="secThree-signUp-form-radio-wrap secThree-signUp-form-item">
+                    <h4>Company Size</h4>
+                    <div class="secThree-signUp-form-empl-input-container">
+                        <label for="employees">
+                            <input type="radio" name="empl-numb"> 1-25 employees</label>
+                        <label for="employees">
+                            <input type="radio" name="empl-numb"> 26-50 employees</label>
+                        <label for="employees" name="empl-numb">
+                            <input type="radio" name="empl-numb"> 50-100 employees</label>
+                        <label for="employees">
+                            <input type="radio" name="empl-numb"> 100+ employees</label>
+                    </div>
+                </div>
+                <div class="secThree-signUp-form-radio-wrap secThree-signUp-form-item">
+                    <h4>Project Size</h4>
+                    <div class="secThree-signUp-form-empl-input-container">
+                        <label for="employees">
+                            <input type="radio" name="project"> single project </label>
+                        <label for="employees">
+                            <input type="radio" name="project"> reoccuring project </label>
+                    </div>
+                </div>
+                <div class="secThree-signUp-form-message secThree-signUp-form-item">
+                    <h4>Further information</h4>
+                    <textarea name="message" id="signUp-form-message" cols="30" rows="10"
+                        placeholder="Please let us know about your expectations and plans..."></textarea>
+                </div>
+                <div class="secThree-signUp-form-submit secThree-signUp-form-item">
+                    <button value="submit" type="submit">Submit your inquiry!</button>
+                    <!-- <button value="reset" type="reset">Reset</button> -->
+                </div>
+            </form>
+        </div>
+    </main>
+    <main class="secFour-wrapper" id="loginAccount">
+        <div class="secFour-container login-container">
+            <h3 class="secFour-title">Login with company account</h3>
+            <form class="secFour-form-container">
+                <label for="login-email">Email</label>
+                <input type="email" class="secFour-form-input" placeholder="Please insert email" name="login-email"
+                    required>
+                <label for="login-password">Password</label>
+                <input type="password" class="secFour-form-input" placeholder="Please insert password"
+                    name="login-password" required>
+                <button type="submit">Log me in!</button>
+            </form>
+        </div>
+    </main>
+    <footer>
+        <p class="footer-para"><span class="copywright">©</span> 2022 Techbox - All rights reserved</p>
+        <div class="footer-links">
+            <p>Legal notice</p>
+            <p>Personal data usage policy</p>
+            <p>Cookie policy</p>
+        </div>
+        <a href="#" class="footer-topLink">🔝</a>
+    </footer>
+</body>
+</html>

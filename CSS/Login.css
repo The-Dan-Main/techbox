@@ -1,0 +1,188 @@
+/* Color foundation  */
+:root {
+    --dark-blue: #1f2937;
+    --light-blue: #F9FAF8;
+    --semi-light-blue: #E5E7EB;
+    --mid-blue-button: #3882F6;
+    --white: #ffffff;
+    --black: #00000000;
+    --light-gray: #e1e6ec;
+}
+
+.secOne-item-container#login-secOne-title {
+    width: 100%;
+}
+
+.secThree-signUp-form {
+    width: 100%;
+}
+
+.secThree-signUp-form,
+.secThree-signUp-form-contact-input-container,
+.secThree-signUp-form-empl-input-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+    text-align: center;
+}
+
+.secThree-signUp-form-item {
+    width: 100%;
+    margin-bottom: 5vh;
+}
+
+.secThree-signUp-title {
+    font-size: 32px;
+}
+
+.secThree-signUp-form h4 {
+    font-size: 24px;
+}
+
+.secThree-signUp-form label {
+    font-size: 18px;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.secThree-signUp-form input:not([type=radio]) {
+    width: 80%;
+    box-sizing: border-box;
+    height: 5vh;
+    padding: 10px 15px;
+    color: var(--dark-blue);
+    font-size: 18px;
+    border: 2px solid var(--white);
+    border-radius: 15px;
+}
+
+
+
+.secThree-signUp-form input[type=radio] {
+    height: 19px;
+    border: 0px;
+    width: 5%;
+}
+
+#signUp-form-message {
+    border: 2px solid var(--white);
+    border-radius: 15px;
+    width: 80%;
+    box-sizing: border-box;
+    padding: 20px;
+    color: var(--dark-blue);
+    font-size: 18px;
+}
+
+#signUp-form-message:focus-visible,
+.secThree-signUp-form input:focus-visible {
+    background-color: var(--dark-blue);
+    color: var(--white);
+    outline: var(--dark-blue) 2px;
+    border: 2px solid var(--dark-blue);
+}
+
+#signUp-form-message:focus-visible::placeholder,
+.secThree-signUp-form input:focus-visible::placeholder {
+    color: var(--light-gray);
+}
+
+.secThree-signUp-form-submit.secThree-signUp-form-item button {
+    background-color: var(--dark-blue);
+    color: var(--white);
+    padding: 2vh 2vw;
+    font-size: 20px;
+    border: none;
+    border-radius: 15px;
+}
+
+
+
+
+
+
+.login-signIn button {
+    width: 40%;
+    color: var(--white);
+    text-decoration: none;
+}
+
+.login-signIn {
+    display: flex;
+    gap: 10%;
+    justify-content: center;
+}
+
+.secFour-form-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    gap: 20px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.secFour-container.login-container {
+    flex-direction: column;
+    height: 30vh;
+}
+
+.secFour-container.login-container h3 {
+    font-size: 32px;
+}
+
+.secFour-form-input {
+    width: 80%;
+    box-sizing: border-box;
+    height: 5vh;
+    padding: 10px 15px;
+    color: var(--dark-blue);
+    font-size: 18px;
+    border: 2px solid var(--white);
+    border-radius: 15px;
+}
+
+.secFour-form-input:focus-visible {
+    background-color: var(--dark-blue);
+    color: var(--white);
+    border: var(--dark-blue) 2px solid;
+    outline: var(--dark-blue) 2px;
+}
+
+
+.secFour-form-input:focus-visible::placeholder {
+    color: var(--light-gray);
+}
+
+.secFour-form-container button {
+    width: 60%;
+    margin: 0 15% 0 35%;
+    height: 5vh;
+    color: var(--dark-blue);
+    background: var(--light-blue);
+    /* border: 1px solid var(--dark-blue); */
+    border: none;
+    border-radius: 15px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.secFour-form-container button:hover {
+    background-color: var(--dark-blue);
+    color: var(--white);
+}
+
+.secFour-wrapper input:not([type=radio]):hover,
+.secThree-wrapper input:not([type=radio]):hover,
+#signUp-form-message:hover,
+.secOne-wrapper input:not([type=radio]):hover {
+    border: var(--dark-blue) 2px solid;
+    box-sizing: border-box;
+}
