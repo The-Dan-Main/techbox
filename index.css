@@ -12,8 +12,10 @@ body {
     background-color: var(--dark-blue);
 }
 
-p {
+p,
+figcaption {
     font-size: 18px;
+    text-align: center;
 }
 
 button {
@@ -41,15 +43,12 @@ main {
 }
 
 /* header section */
-.header-wrapper,
-.secOne-wrapper {
-    color: var(--white);
-}
 
 .header-wrapper {
     display: flex;
     justify-content: space-around;
     gap: 20%;
+    color: var(--white);
     padding: 3vh 10vw;
 }
 
@@ -105,6 +104,7 @@ main {
     display: flex;
     padding: 5vh 5vw 10vh 5vw;
     gap: 10vw;
+    color: var(--white);
     justify-content: center;
 }
 
@@ -169,6 +169,8 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
+    position: relative;
+    gap: 20px;
 }
 
 .secTwo-img-wrapper {
@@ -176,19 +178,16 @@ main {
     width: 10vw;
     height: 10vw;
     overflow: hidden;
+    text-align: center;
     border: var(--mid-blue-button) 2px solid;
     border-radius: 10px;
 }
 
 .secTwo-item-img {
-    height: 100%;
-    position: absolute;
-    left: -25%;
-    right: -25%;
-}
-
-.secTwo-item-para {
-    text-align: center;
+    height: 10vw;
+    width: 10vw;
+    border-radius: 15px;
+    border: var(--mid-blue-button) 2px solid;
 }
 
 /* third main section */

@@ -9,21 +9,28 @@
     --light-gray: #e1e6ec;
 }
 
-.secOne-container#services-secOne-Container h2 {
+#digitalisation {
     text-align: center;
+    display: flex;
+    padding: 5vh 5vw 10vh 5vw;
+    color: var(--white);
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 
 .secOne-item-container.services-secOne-item-container {
     width: 60%;
     height: 20vh;
     align-items: center;
+    color: var(--white);
 }
 
 .secOne-item-container#services-achievements {
     width: 100%;
 }
 
-.secOne-item-container#services-achievements ul {
+.secOne-item-container#services-achievements {
     list-style-type: none;
     display: flex;
     flex-direction: row;
